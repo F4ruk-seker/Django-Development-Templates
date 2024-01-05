@@ -11,7 +11,7 @@
 2. Clone the project:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/F4ruk-seker/django-development-templates/tree/standard_django_template
     ```
 
 3. Install the requirements:
