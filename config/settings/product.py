@@ -10,10 +10,7 @@ CORS_ALLOWED_ORIGINS = [
     f"https://{env('PRODUCT_API_HOST')}"
 ]
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = [env('PRODUCT_HOST'), env('PRODUCT_API_HOST')]
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS")
 
 
 # Database
