@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf import settings
-from settings.base import env
+from config.settings.base import env
 
 
 urlpatterns = [
