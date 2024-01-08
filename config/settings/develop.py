@@ -1,7 +1,5 @@
 from .base import *
 
-CORS_ALLOW_ALL_ORIGINS = True
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 

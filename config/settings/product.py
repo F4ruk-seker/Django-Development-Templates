@@ -5,11 +5,6 @@ CSRF_TRUSTED_ORIGINS = [
     f"https://{env('PRODUCT_API_HOST')}"
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    f"https://{env('PRODUCT_HOST')}/",
-    f"https://{env('PRODUCT_API_HOST')}"
-]
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 

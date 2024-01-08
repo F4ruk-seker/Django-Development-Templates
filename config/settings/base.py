@@ -47,8 +47,6 @@ INSTALLED_APPS = [
     # your apps
 ]+[
     # third party app
-    'rest_framework',
-    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -63,14 +61,7 @@ MIDDLEWARE = [
     # your middleware
 ]+[
     # third party middleware
-    'corsheaders.middleware.CorsMiddleware',
 ]
-
-SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=5),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=15),
-    "UPDATE_LAST_LOGIN": True,
-}
 
 
 ROOT_URLCONF = 'config.urls'
