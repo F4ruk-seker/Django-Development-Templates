@@ -1,5 +1,5 @@
 """
-ASGI config for PasswordApp project.
+ASGI config for MyDjangoApp project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
