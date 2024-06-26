@@ -8,7 +8,7 @@
 
 <details open>
   <summary>File Frame</summary>
-
+```
 │   .env.example
 │   .gitignore
 │   LICENSE
@@ -30,6 +30,7 @@
             develop.py
             product.py
             test.py
+```
 </details>
 
 ### - [REST API - JWT - Django Template](https://github.com/F4ruk-seker/django-development-templates/tree/rest_jwt_django_template) 
